@@ -1,0 +1,135 @@
+@font-face {
+    font-family: Roboto-Regular;
+    src: url(../fonts/Roboto-Regular.ttf);
+}
+.container {
+    width: 100% !important;
+	max-width:1000px;
+	padding:0px !important;
+	
+}
+.section-section img{width:100%;}
+
+.logo {
+    margin-top: 50px;
+    vertical-align: middle;
+	text-align:center;
+}
+.logo > a {
+    margin-left: 30px;
+}
+
+.first-section {
+    background-color: #9ebd3b;
+    color: #fff;
+    display: inline-block;
+    font-family: Roboto-Regular;
+    font-size: 15px;
+    padding: 50px 0;
+    position: relative;
+}
+.first-section::after {
+    border-left: 18px solid transparent;
+    border-right: 18px solid transparent;
+    border-top: 18px solid #9ebd3b;
+    bottom: -7%;
+    content: "";
+    display: block;
+    left: 16%;
+    position: absolute;
+}
+.section-section {
+    background-color: #f2f2f2;
+    display: inline-block;
+    padding: 30px 12px;
+}
+.content {
+    padding: 0 35px;
+}
+
+.download-box,.video-box{
+	text-align:center;
+	}
+.img-responsive {
+    margin: auto;
+	min-height:209px;
+}
+
+.watch_btn {
+    background: #9ebd3b none repeat scroll 0 0;
+    color: #fff;
+    display: block;
+    font-family: roboto-regular;
+    font-weight: 500;
+   
+   
+    text-align: center;
+  
+	font-size:13px;
+	margin-top:15px;
+	height: 44px;
+line-height: 44px;
+}
+.download_btn{
+	background: #9ebd3b none repeat scroll 0 0;
+    color: #fff;
+    display:block;
+    font-family: roboto-regular;
+    font-size: 13px;
+    font-weight: 500;   
+    text-align: center;
+	margin-top:15px;
+	height: 44px;
+line-height: 44px;
+	
+   
+}
+.watch_btn:hover,.download_btn:hover{text-decoration:none; color:#fff;}
+.info-section form input[type="text"], input[type="email"],input[type="submit"] {
+    width: 100%;
+}
+.info-section h2 {
+    color: #7f7f7f;
+    font-family: roboto-regular;
+    font-size: 22px;
+   margin: 0 0 20px;
+}
+.info-section form input[type="submit"] {
+    background: #9ebd3b none repeat scroll 0 0;
+    border: medium none;
+    color: #fff;
+    display: inline-block;
+    font-family: roboto-regular;
+    font-weight: 500;
+    margin: 9px 0;   
+    text-align: center;
+    text-transform: uppercase;
+    width: 100%;
+	font-size:13px;
+	min-height: 44px;
+line-height: 44px;
+}
+.info-section form input[type="text"], input[type="email"] {
+    border: 1px solid #c1c1c1;
+margin-bottom: 15px;
+padding: 10px 10px;
+}
+
+.section-section .col-sm-5 {
+    width: 40.66666% !important;
+}
+
+.section-section .col-sm-3 {
+    width: 20% !important;
+}
+
+.section-section .col-sm-4 {
+    width: 39.333333% !important;
+}
+
+.section-section img{box-shadow:0 0 8px #ccc;}
+
+@media (max-width:767px){
+	
+}
+
